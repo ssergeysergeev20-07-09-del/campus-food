@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кампус Фуд — Оформление</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">🍔 Кампус Фуд</a>
+    <nav class="nav-links">
+      <a href="index.html">Меню</a>
+      <a href="cart.html">Корзина (0)</a>
+      <a href="status.html">Статус заказа</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Куда и когда доставить?</h1>
+    <div class="card">
+      <div class="form-group">
+        <label for="building">Учебный корпус</label>
+        <select id="building">
+          <option>Главный корпус</option>
+          <option>Лабораторный корпус №2</option>
+          <option>Корпус ССУЗ-партнера</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="room">Номер аудитории</label>
+        <input type="text" id="room" placeholder="Например: 304-А">
+      </div>
+
+      <div class="form-group">
+        <label for="time">Время доставки (к перемене)</label>
+        <select id="time">
+          <option>К 10:15 (после 1 пары)</option>
+          <option>К 12:00 (большая перемена)</option>
+          <option>К 13:45 (после 3 пары)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a href="cart.html" class="btn btn-secondary">← Назад в корзину</a>
+      <a href="payment.html" class="btn">Перейти к оплате →</a>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кампус Фуд — Меню</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo">🍔 Кампус Фуд</a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Меню</a>
+      <a href="cart.html">Корзина (0)</a>
+      <a href="status.html">Статус заказа</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Каталог блюд</h1>
+    
+    <!-- Фильтр категорий -->
+    <div class="categories">
+      <button class="btn">Все</button>
+      <button class="btn btn-secondary">Выпечка</button>
+      <button class="btn btn-secondary">Горячее</button>
+      <button class="btn btn-secondary">Напитки</button>
+    </div>
+
+    <!-- Сетка-заглушка для будущих карточек блюд -->
+    <div class="grid">
+      <div class="card">
+        <h3>Сосиска в тесте</h3>
+        <p style="color: #71717a; font-size: 14px; margin: 8px 0;">Столовая колледжа • 120 г</p>
+        <p style="font-weight: bold; margin-bottom: 12px;">65 ₽ / 65 баллов</p>
+        <button class="btn" style="width: 100%;">В корзину</button>
+      </div>
+      <div class="card">
+        <h3>Пюре с котлетой</h3>
+        <p style="color: #71717a; font-size: 14px; margin: 8px 0;">Столовая колледжа • 250 г</p>
+        <p style="font-weight: bold; margin-bottom: 12px;">140 ₽ / 140 баллов</p>
+        <button class="btn" style="width: 100%;">В корзину</button>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a href="cart.html" class="btn">Перейти в корзину →</a>
+    </div>
+  </main>
+</body>
+</html>
